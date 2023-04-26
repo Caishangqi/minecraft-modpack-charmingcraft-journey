@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/39553613/145566584-494920e6-bdac-4c23-985d-9d00187c90e1.jpg">
+<img height = 512px weight = 512px src = "https://user-images.githubusercontent.com/39553613/234549061-bc603f74-226b-48e6-b551-e70c8ca456ae.png">
 </p>
 
 <h4 align="center">High version Minecraft modpack, focusing on multi-line development to provide players with a good flow game experience</h4>
