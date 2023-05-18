@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/39553613/145566584-494920e6-bdac-4c23-985d-9d00187c90e1.jpg">
+<img src = "https://github.com/Caishangqi/minecraft-modpack-charmingcraft-journey/assets/39553613/290e0607-2e2a-4f35-9149-6abfe15459f7">
 </p>
 
 <h4 align="center">High version Minecraft modpack, focusing on multi-line development to provide players with a good flow game experience</h4>
