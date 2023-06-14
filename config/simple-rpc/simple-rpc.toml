@@ -23,7 +23,7 @@
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -31,26 +31,30 @@
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
-	buttons = []
+	[[init.buttons]]
+		label = "Github"
+		url = "https://github.com/Caishangqi/minecraft-modpack-charmingcraft-journey"
 
 #The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is currently lazy"
+	description = "%player% is in main menu"
 	#The seconds line of text under the app name
-	state = "Chilling in the menu"
+	state = "Waiting for operation"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew","https://user-images.githubusercontent.com/39553613/232686427-78efa364-3da7-4725-996b-9e9548f6bac7.png"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageKey = ["large-logo"]
+	#The text that gets displayed when the large image is hovered %mcver% 
+	largeImageText = "Minecraft %mcver% Project (23.05.22.03)"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["main-menu"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
-	buttons = []
+	[[main_menu.buttons]]
+		label = "Github"
+		url = "https://github.com/Caishangqi/minecraft-modpack-charmingcraft-journey"
 
 #The Server List event
 [server_list]
@@ -61,7 +65,7 @@
 	#The second line of text under the app name
 	state = "Searching for friends"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -80,7 +84,7 @@
 	#The second line of text under the app name
 	state = "Browsing Realms"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -99,7 +103,7 @@
 	#The second line of text under the app name
 	state = "Joining Game"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -116,9 +120,9 @@
 	#The first line of text under the app name
 	description = "Currently In %world%"
 	#The second line of text under the app name
-	state = "Playing lonely mode"
+	state = "Playing single mode"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -137,7 +141,7 @@
 	#The second line of text under the app name
 	state = "Playing online"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -156,7 +160,7 @@
 	#The second line of text under the app name
 	state = "Playing on a Realm"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -173,7 +177,7 @@
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["large-logo"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
@@ -193,7 +197,7 @@
 #Dimension Information Overrides
 [dimension_overrides]
 	#Allows you to override the displayed values for dimensions
-	enabled = false
+	enabled = true
 
 	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
@@ -204,11 +208,11 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["overworld"]
+		largeImageKey = ["large-logo"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the Overworld"
 		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = ["overworld"]
 		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
@@ -222,11 +226,11 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["nether"]
+		largeImageKey = ["large-logo"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the Nether"
 		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = ["nether"]
 		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
@@ -240,11 +244,11 @@
 		#The second line of text under the app name
 		state = ""
 		#The Asset ID of the image to display as the large image
-		largeImageKey = ["end"]
+		largeImageKey = ["large-logo"]
 		#The text that gets displayed when the large image is hovered
 		largeImageText = "In the End"
 		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
+		smallImageKey = ["end"]
 		#The text that gets displayed when the small image is hovered
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
