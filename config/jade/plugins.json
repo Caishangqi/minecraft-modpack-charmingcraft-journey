@@ -60,15 +60,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "create": {
-    "filter": true,
-    "goggles.requires_goggles": true,
-    "goggles": true,
-    "copper_backtank": true,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }
